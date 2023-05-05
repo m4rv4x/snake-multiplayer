@@ -1,0 +1,37 @@
+/* GameOver.css */
+
+.game-over {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+
+.game-over p {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.game-over button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
