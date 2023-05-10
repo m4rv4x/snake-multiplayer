@@ -6,4 +6,4 @@ cd snake-multiplayer
 npm install
 npm start
 ```
-Play snake on http://127.0.0.1:3000
+Play snake at http://127.0.0.1:3000
