@@ -1,9 +1,47 @@
 # snake-multiplayer
-Multiplayer Snake using Express and React
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+> Real-time multiplayer Snake game — Express server + React client + WebSockets.
+
+## 🎮 Features
+
+- 🐍 Classic Snake mechanics
+- 🧑‍🤝‍🧑 Multiplayer via WebSockets
+- ⚛️ React client
+- 🚀 Express + ws server
+
+## 🚀 Quick Start
+
+### Server
+```bash
+npm install
+node server.js
 ```
-git clone https://github.com/m4rv4x/snake-multiplayer.git
-cd snake-multiplayer
+
+Server listens on http://localhost:3000
+
+### Client
+```bash
+cd client
 npm install
 npm start
 ```
-Play snake at http://127.0.0.1:3000
+
+Client dev server on http://localhost:3001
+
+## 🏗️ Architecture
+
+```
+snake-multiplayer/
+├── server.js           # Express + WebSocket game server
+├── package.json
+└── client/             # React client (CRA)
+    ├── src/
+    ├── public/
+    └── package.json
+```
+
+## 📄 License
+
+[MIT](LICENSE) © [marvax](https://github.com/m4rv4x)
